@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200;0,400;1,200;1,400&display=swap');
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'crimson-pro': ['Crimson Pro', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+
+    <main class="max-w-4xl mx-auto">
+        <article>
+
+            <nav class="text-center text-lg py-2">
+                Exercise #4
+            </nav>
+
+            <h1 class="text-6xl font-light text-center pt-2 pb-8 font-crimson-pro">
+                Reading the contents of a file
+            </h1>
+
+            <section class="p-2 text-xl font-crimson-pro max-w-2xl mx-auto">
+
+                <p class="leading-relaxed py-2">
+                    The ability of reading files is an important tool in programming. It's used almost everywhere, from
+                    Photoshop (to open a .psd file and read its content) to Visual Code (to read the text inside our .c file).
+                </p>
+
+                <p class="leading-relaxed py-2">
+                    Our task is to read <a class="underline underline-offset-2 decoration-1 text-green-600 hover:no-underline" href="resources/open.txt">this file</a>, loop through every symbol inside, and if the symbol is a letter of the alphabet, print it.
+                </p>
+
+                <p class="leading-relaxed py-2">
+                    Feel free to Google and ask me anything, and of course, do it when your tasks are done))
+                </p>
+
+            </section>
+
+        </article>
+    </main>
+
+
+
+</body>
+
+</html>
